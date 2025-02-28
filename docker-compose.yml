@@ -19,4 +19,4 @@ services:
       - ISAR_MQTT_PASSWORD
 
       # Selected robot package
-      - ISAR_ROBOT_PACKAGE=isar_robot
+      - ISAR_ROBOT_PACKAGE=isar_turtlebot
