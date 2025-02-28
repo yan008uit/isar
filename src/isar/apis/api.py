@@ -44,7 +44,7 @@ class API:
         self.scheduling_controller: SchedulingController = scheduling_controller
         self.robot_controller: RobotController = robot_controller
         self.keyvault_client: Keyvault = keyvault_client
-        self.host: str = "0.0.0.0"  # Locking uvicorn to use 0.0.0.0
+        self.host: str = "localhost"  # Locking uvicorn to use localhost
         self.port: int = port
         self.azure_ai_logging_enabled: bool = azure_ai_logging_enabled
 
